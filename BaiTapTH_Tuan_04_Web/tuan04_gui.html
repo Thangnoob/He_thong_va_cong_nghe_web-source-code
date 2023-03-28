@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai tuan 4</title>
+</head>
+<style>
+    #wrapper{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    #container{
+        display: flex;
+        justify-content: space-between;
+        width: 1440px;
+        
+    }
+
+    #center{
+        display: block;
+        width: 910px;
+        margin-right: 50px;
+        border-right: 1px solid lightslategray;
+    }
+
+    #right{
+        display: flex;
+        width: 440px;
+      
+    }
+
+    #left{
+        width: 90px;
+        height: 870px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 50px;
+        border-right: 1px solid lightslategray;
+    }
+
+
+    #left_above{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #below {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .item_left{
+        width:32px;
+        margin-top: 50px;
+    }
+
+    .item_right-1{
+        margin-top: 50px;
+    }
+
+    #center_top{
+        display: flex;
+        margin-top: 40px;
+        margin-bottom: 12px;
+        justify-content: space-between;
+    }
+    #center_between--above{
+        display: flex;
+        margin-bottom: 10px;
+    }
+    .center_between--item{
+        margin-right: 15px;
+    }
+    #banner{
+      background-image: url('img_big.png');
+      margin-bottom: 25px;
+    }
+    #center_between--below{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 25px;
+    }
+    #center_bottom{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .center_bottom--item{
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+    }
+    .center_bottom-item{
+        width: 100px;
+        height: 43px;
+        margin-right: 10px;
+    }
+    #right_top{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+    #setting{
+        margin-top:36px;
+    }
+</style>
+<body>
+    <div id = "wrapper">
+        <div id ="container">
+            <div id = "left">
+                <div id ="left_above">
+                    <img class= "item_left" src="logo.png" alt="">
+                    <img class= "item_left" src="home.png" alt="">
+                    <img class= "item_left" src="chatting.png" alt="">
+                    <img class ="item_left" src="calender.png" alt="">
+                    <img class= "item_left" src="cam.png" alt=""> 
+                    <img class= "item_left" src="user.png" alt="">
+                </div>
+                <div id = "below">
+                    <img src="avatar.png" alt="">
+                    <img id = "setting" src="setting.png" alt="">
+                </div>
+            </div>
+
+            <div id = "center">
+                <div id="center_top">
+                    <h2>Meeting title </h2>
+                    <img src="12_records.png" alt style="height: 45px; width: 90px; margin-right: 10px;">
+                </div>
+                
+                <div id="center_between--above">
+                    <img class="center_between--item" src="Internal.png" alt="" style="height: 35px; width: 80px;">
+                    <img class="center_between--item" src="calender_small.png" alt="" style="height: 20px; width: 20px;">
+                    <p class="center_between--item">Sep 02, 2022 |  08:00-09:00 AM</p>
+                </div>
+
+                <div id="banner">
+                    <img src ="img_big.png">
+                </div>
+
+                <div id="center_between--below">
+                    <img src="img2.png" alt="">
+                    <img src="img1.png" alt="">
+                    <img src="img.png" alt="">
+                </div>
+
+                <div id="center_bottom">
+                    <img class="center_bottom--item" src="mic_grey_color.png" alt="">
+                    <img class="center_bottom--item" src="cam_color.png" alt="">
+                    <img class="center_bottom--item" src="speaker_grey_color.png" alt="">
+                    <img class="center_bottom-item" src="End_meeting.png" alt="">
+                    <img class="center_bottom--item" src="Button 2179.png" alt="">
+                    <img class="center_bottom--item" src="share.png" alt="">
+                    <img class="center_bottom--item" src="3cham.png" alt="">
+                </div>
+            </div>
+            <div id = "right">
+                <div id="right_top"> 
+                    <h2>Participants</h2> 
+                    <div style="color:deeppink;margin-left: 20px;">4</div> 
+                    <img src="add_color.png" alt="" style="width: 70px; height: 50px;">
+                </div>
+                        
+            </div>
+        </div>
+    </div>
+</body>
+</html>
