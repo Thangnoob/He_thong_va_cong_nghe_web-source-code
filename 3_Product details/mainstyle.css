@@ -20,20 +20,5 @@
 
 #menu--right{
     display: flex;
-
-}
-
-#location{
-    display: flex; 
-    margin-top: 10%;   
-}
-#location--items{
-    display: flex;
-    margin-right: 25%;
-}
-#product--view{
-    display: flex;
-}
-#product--view__left{
     
 }
