@@ -22,3 +22,70 @@
     display: flex;
     
 }
+
+#product-page{
+    margin-left: 195px;
+}
+
+.duongDan{
+    display: flex;
+    margin-top: 50px;
+}
+
+#hinhSanPham{
+    display: flex;
+}
+
+.hinhPhu{
+    display: flex;
+    flex-direction: column;
+}
+
+.item--hinhPhu{
+    margin-bottom: 10px;
+}
+
+.giaTien--thongTinSanPham{
+    display: flex;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+.danhGia{
+    display: flex;
+}
+
+.item--danhGia{
+    margin-right: 20px;
+}
+
+.uuDai{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.item--uuDai{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.sizeSoLuong{
+}
+
+.soLuong{
+    display: flex;
+    margin-top: 20px;
+}
+
+.item--soLuong{
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.lastButton{
+    margin-top: 20px;
+}
+
+.item--lastButton{
+    margin-left: 10px;
+}
