@@ -95,11 +95,23 @@
     height: 43px;
     margin-right: 10px;
 }
-#right_top{
+
+.rightTop{
     display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
+    justify-content: space-around;
 }
+
+.rightTop--item{
+    display: flex;
+}
+
+.quantity-participant{
+    padding: 6px 9px;
+    border-radius: 50%;
+    color: rgb(238, 51, 51);
+    background-color: white;
+}
+
 #setting{
     margin-top:36px;
 }
